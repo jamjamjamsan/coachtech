@@ -1,0 +1,14 @@
+li {
+  color: blue;
+}
+
+body {
+  background-image: url("../img/red.jpg");
+}
+
+a {
+  width: 200px;
+  padding: 10px 0;
+  background: linear-gradient(90deg,#ff5800 , #8b00be);
+
+}

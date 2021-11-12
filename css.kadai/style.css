@@ -1,0 +1,50 @@
+nav {
+  color: blue;
+  display: flex;
+  width: 90%;
+  height: 60px;
+  margin: 0 auto;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 10;
+}
+
+.about {
+  position: relative;
+}
+
+.about__img {
+  margin: 0 40px 0 auto;
+  width: 35%;
+  height: 50%;
+  display: block;
+}
+.about__absolute {
+  position: absolute;
+  top: 20%;
+}
+
+.main {
+  top: 50%;
+  position: relative;
+}
+.about__title {
+  font-size: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.about__box {
+  background: blue;
+  width: 600px;
+  height: 140px;
+}
